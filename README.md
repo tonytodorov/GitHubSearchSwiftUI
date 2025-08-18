@@ -33,37 +33,10 @@ A simple iOS application built with **Swift** and **SwiftUI** that allows users 
 This app fetches user data from the **GitHub API**. Make sure you have a valid GitHub API key (if needed for rate limits) and update it in the appropriate API client file:
 ```swift
 let githubAPIBaseURL = "https://api.github.com/"
-let githubAPIToken = "your_personal_access_token" // Optional
-```
-
-## Screenshots
-(Add screenshots here if available)
-
-### Example:
-```markdown
-![Home Screen](screenshots/home_screen.png)
-![User Details](screenshots/user_details.png)
+let githubAPIToken = "your_personal_access_token"
 ```
 
 ## Future Enhancements
 - Add user detail screen with additional information
 - Implement pagination for better performance
 - Improve UI/UX with animations and better styling
-
-## Tags
-- `Swift`
-- `SwiftUI`
-- `GitHub API`
-- `iOS Development`
-- `Combine`
-- `URLSession`
-- `Codable`
-- `AsyncImage`
-- `NavigationStack`
-- `List & LazyVStack`
-- `ProgressView`
-- `MVVM`
-- `XCTest`
-
-## License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
